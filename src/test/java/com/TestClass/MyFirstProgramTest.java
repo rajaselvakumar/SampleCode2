@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
-public class MyFirstProgram {
+public class MyFirstProgramTest {
 	
 	@Test
 	public void TestMethod() {

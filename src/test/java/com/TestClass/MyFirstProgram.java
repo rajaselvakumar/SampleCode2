@@ -1,4 +1,4 @@
-package Maven.Maven1;
+package com.TestClass;
 
 
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ public class MyFirstProgram {
 	
 	@Test
 	public void TestMethod() {
-		
+	//public static void main(String arg[]) {	
 		System.out.println("Welcome to DevOps");
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver_win32\\chromedriver.exe");

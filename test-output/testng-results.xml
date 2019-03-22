@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38858" started-at="2019-03-20T17:33:09Z" finished-at="2019-03-20T17:33:48Z">
+  <suite name="Default suite" duration-ms="30864" started-at="2019-03-21T18:58:42Z" finished-at="2019-03-21T18:59:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38858" started-at="2019-03-20T17:33:09Z" finished-at="2019-03-20T17:33:48Z">
-      <class name="Maven.Maven1.MyFirstProgram">
-        <test-method status="PASS" signature="TestMethod()[pri:0, instance:Maven.Maven1.MyFirstProgram@50c87b21]" name="TestMethod" duration-ms="38794" started-at="2019-03-20T23:03:09Z" finished-at="2019-03-20T23:03:48Z">
+    <test name="Default test" duration-ms="30864" started-at="2019-03-21T18:58:42Z" finished-at="2019-03-21T18:59:13Z">
+      <class name="com.TestClass.MyFirstProgram">
+        <test-method status="PASS" signature="TestMethod()[pri:0, instance:com.TestClass.MyFirstProgram@2b98378d]" name="TestMethod" duration-ms="30770" started-at="2019-03-21T18:58:42Z" finished-at="2019-03-21T18:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestMethod -->
-      </class> <!-- Maven.Maven1.MyFirstProgram -->
+      </class> <!-- com.TestClass.MyFirstProgram -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class SecondProgramTest extends MyFirstProgramTest {
 
-	@Test
+	@Test(priority=1)
 	public void googleTest() throws AWTException, InterruptedException {
 		TestMethod();
 		driver.get("https://www.google.com/");
@@ -17,15 +17,18 @@ public class SecondProgramTest extends MyFirstProgramTest {
 		
 		String title=driver.getTitle();
 		System.out.println("Title is " +title);
+
+		
+	}
+	@Test(priority=2)
+	public void FaceBookTest() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Facebook");
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		String SecondPageTitle=driver.getTitle();
 		System.out.println("Second Page title is " +SecondPageTitle);
+		Thread.sleep(3000);
 		driver.quit();
-		
 	}
-	
-	
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.TestClass.MyFirstProgramTest" duration-ms="46735" started-at="2019-03-22T19:02:11Z" finished-at="2019-03-22T19:02:58Z">
+  <suite name="Command line suite" duration-ms="18961" started-at="2019-03-23T15:39:20Z" finished-at="2019-03-23T15:39:39Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="46735" started-at="2019-03-22T19:02:11Z" finished-at="2019-03-22T19:02:58Z">
-      <class name="com.TestClass.MyFirstProgramTest">
-        <test-method status="PASS" signature="TestMethod()[pri:0, instance:com.TestClass.MyFirstProgramTest@34ce8af7]" name="TestMethod" duration-ms="46686" started-at="2019-03-23T00:32:12Z" finished-at="2019-03-23T00:32:58Z">
+    <test name="Command line test" duration-ms="18961" started-at="2019-03-23T15:39:20Z" finished-at="2019-03-23T15:39:39Z">
+      <class name="com.TestClass.SecondProgramTest">
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:com.TestClass.SecondProgramTest@39ba5a14]" name="googleTest" duration-ms="18912" started-at="2019-03-23T21:09:20Z" finished-at="2019-03-23T21:09:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMethod -->
-      </class> <!-- com.TestClass.MyFirstProgramTest -->
+        </test-method> <!-- googleTest -->
+      </class> <!-- com.TestClass.SecondProgramTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.TestClass.MyFirstProgramTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

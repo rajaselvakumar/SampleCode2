@@ -6,6 +6,7 @@ public class MainJavaProgram {
 		// TODO Auto-generated method stub
 
 		System.out.println("Java program uder src-main-java is running");
+		System.out.println("Adding print statement to check git pull");
 	}
 
 }
